@@ -1,0 +1,52 @@
+body {
+    background: blue;
+    position: center;
+    }
+
+    .custom {
+        cursor: crosshair;
+    }
+
+#container {
+    background: white;
+    width: 80%;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#container img {
+    width: 400px;
+    height: auto;
+}
+
+#nav ul{
+    list-style-type: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    display: block;
+    width: auto;
+    border-right: 1px solid white;
+}
+
+#nav ul li, #nav ul li a{
+    display: inline-block;
+    color: white;
+
+}
+
+#nav ul li {
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+
+#nav li a:hover {
+    background-color: blue;
+}
+
